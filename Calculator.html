@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="index.js"></script> 
+</head>
+<body>
+    <div>
+        <h3>Simple CALCULATOR</h3>
+        <div id="inputs">
+            <label for="num1">First number: </label>
+            <input type="number" id="num1" required><br><br>
+
+            <label for="num2">Second number: </label>
+            <input type="number" id="num2" required><br><br>
+
+            <label for="result">Result: </label>
+            <div id="result" style="color: purple;"></div>
+
+            <div>
+                <button id="addBtn" onclick="add()">ADD</button>
+                <button id="subBtn" onclick="sub()">SUB</button>
+                <button id="multBtn" onclick="mult()">MULT</button>
+                <button id="clrBtn" onclick="clearAll()" style="background-color: rgb(209, 5, 5);">Clear</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
